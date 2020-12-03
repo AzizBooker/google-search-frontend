@@ -1,3 +1,6 @@
+p{
+  color: rgb(88, 85, 85);
+}
 .Navbar {
   display: grid;
 }
@@ -12,16 +15,17 @@
 .Top-Navbar #logo {
   width: 120px;
   grid-area: logo;
-  padding-left: 10px;
+  padding-left: 1%;
 }
 .Top-Navbar #squared-menu {
   grid-area: menu;
   width: 30px;
-  padding-top: 7px;
+  padding-top: 5%;
+  padding-right: 5%;
 }
 .Top-Navbar #profile-icon {
   grid-area: menu;
-  padding-left: 50px;
+  padding-left: 40%;
 }
 .Top-Navbar form {
   width: 100%;
@@ -48,7 +52,7 @@
 }
 
 .Bottom-Navbar{
-
+padding-top: 1%;
 }
 .Bottom-Navbar ul{
     list-style-type: none;
@@ -57,7 +61,7 @@
 }.Bottom-Navbar li{
     display: inline;
     
-    padding-left: 50px;
+    padding-left: 8%;
 }
 .Bottom-Navbar li a{
     text-decoration:none;
@@ -69,4 +73,32 @@
 }
 .Bottom-Navbar li a:active{
     color: blue;
+}
+
+.content{
+  margin-left:18%;
+  margin-right:40%;
+}
+
+.website-link{
+margin-top: 30px;
+}
+
+.website-link .link p{
+  font-size: 12px;
+}
+.website-link a{
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(27, 27, 201);
+}
+.website-link a:hover span{
+  text-decoration:underline;
+}
+
+.dropdown{
+  background-color: blue;
+  
+  height: 10%;
+  width: 10%;
 }
